@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF4C952F1C0F3D11001CD4C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4C952E1C0F3D11001CD4C9 /* AppDelegate.swift */; };
+		FF4C95311C0F3D11001CD4C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4C95301C0F3D11001CD4C9 /* ViewController.swift */; };
+		FF4C95341C0F3D11001CD4C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4C95321C0F3D11001CD4C9 /* Main.storyboard */; };
+		FF4C95361C0F3D11001CD4C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4C95351C0F3D11001CD4C9 /* Assets.xcassets */; };
+		FF4C95391C0F3D11001CD4C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4C95371C0F3D11001CD4C9 /* LaunchScreen.storyboard */; };
+		FF4C95411C0F3E08001CD4C9 /* Stations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4C95401C0F3E08001CD4C9 /* Stations.swift */; };
+		FF4C95431C0F3F0B001CD4C9 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4C95421C0F3F0B001CD4C9 /* APIManager.swift */; };
+		FF4C95451C0F439F001CD4C9 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4C95441C0F439F001CD4C9 /* NavigationViewController.swift */; };
+		FF4C95481C0F44F2001CD4C9 /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4C95461C0F44F2001CD4C9 /* StationTableViewCell.swift */; };
+		FF4C95491C0F44F2001CD4C9 /* StationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF4C95471C0F44F2001CD4C9 /* StationTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF4C952B1C0F3D11001CD4C9 /* VélibTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VélibTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4C952E1C0F3D11001CD4C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF4C95301C0F3D11001CD4C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF4C95331C0F3D11001CD4C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF4C95351C0F3D11001CD4C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF4C95381C0F3D11001CD4C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF4C953A1C0F3D11001CD4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4C95401C0F3E08001CD4C9 /* Stations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stations.swift; sourceTree = "<group>"; };
+		FF4C95421C0F3F0B001CD4C9 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		FF4C95441C0F439F001CD4C9 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		FF4C95461C0F44F2001CD4C9 /* StationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
+		FF4C95471C0F44F2001CD4C9 /* StationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StationTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4C95281C0F3D11001CD4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF4C95221C0F3D11001CD4C9 = {
+			isa = PBXGroup;
+			children = (
+				FF4C952D1C0F3D11001CD4C9 /* VélibTest */,
+				FF4C952C1C0F3D11001CD4C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF4C952C1C0F3D11001CD4C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF4C952B1C0F3D11001CD4C9 /* VélibTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF4C952D1C0F3D11001CD4C9 /* VélibTest */ = {
+			isa = PBXGroup;
+			children = (
+				FF4C952E1C0F3D11001CD4C9 /* AppDelegate.swift */,
+				FF4C95421C0F3F0B001CD4C9 /* APIManager.swift */,
+				FF4C95401C0F3E08001CD4C9 /* Stations.swift */,
+				FF4C95441C0F439F001CD4C9 /* NavigationViewController.swift */,
+				FF4C95461C0F44F2001CD4C9 /* StationTableViewCell.swift */,
+				FF4C95471C0F44F2001CD4C9 /* StationTableViewCell.xib */,
+				FF4C95301C0F3D11001CD4C9 /* ViewController.swift */,
+				FF4C95321C0F3D11001CD4C9 /* Main.storyboard */,
+				FF4C95351C0F3D11001CD4C9 /* Assets.xcassets */,
+				FF4C95371C0F3D11001CD4C9 /* LaunchScreen.storyboard */,
+				FF4C953A1C0F3D11001CD4C9 /* Info.plist */,
+			);
+			path = "VélibTest";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF4C952A1C0F3D11001CD4C9 /* VélibTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4C953D1C0F3D11001CD4C9 /* Build configuration list for PBXNativeTarget "VélibTest" */;
+			buildPhases = (
+				FF4C95271C0F3D11001CD4C9 /* Sources */,
+				FF4C95281C0F3D11001CD4C9 /* Frameworks */,
+				FF4C95291C0F3D11001CD4C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VélibTest";
+			productName = "VélibTest";
+			productReference = FF4C952B1C0F3D11001CD4C9 /* VélibTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF4C95231C0F3D11001CD4C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Arnaud Aubry";
+				TargetAttributes = {
+					FF4C952A1C0F3D11001CD4C9 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = FF4C95261C0F3D11001CD4C9 /* Build configuration list for PBXProject "VélibTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF4C95221C0F3D11001CD4C9;
+			productRefGroup = FF4C952C1C0F3D11001CD4C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF4C952A1C0F3D11001CD4C9 /* VélibTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF4C95291C0F3D11001CD4C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4C95391C0F3D11001CD4C9 /* LaunchScreen.storyboard in Resources */,
+				FF4C95361C0F3D11001CD4C9 /* Assets.xcassets in Resources */,
+				FF4C95491C0F44F2001CD4C9 /* StationTableViewCell.xib in Resources */,
+				FF4C95341C0F3D11001CD4C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF4C95271C0F3D11001CD4C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4C95431C0F3F0B001CD4C9 /* APIManager.swift in Sources */,
+				FF4C95311C0F3D11001CD4C9 /* ViewController.swift in Sources */,
+				FF4C95481C0F44F2001CD4C9 /* StationTableViewCell.swift in Sources */,
+				FF4C952F1C0F3D11001CD4C9 /* AppDelegate.swift in Sources */,
+				FF4C95451C0F439F001CD4C9 /* NavigationViewController.swift in Sources */,
+				FF4C95411C0F3E08001CD4C9 /* Stations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF4C95321C0F3D11001CD4C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4C95331C0F3D11001CD4C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF4C95371C0F3D11001CD4C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4C95381C0F3D11001CD4C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF4C953B1C0F3D11001CD4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF4C953C1C0F3D11001CD4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF4C953E1C0F3D11001CD4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VélibTest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arnaudaubry.Ve-libTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF4C953F1C0F3D11001CD4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "VélibTest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arnaudaubry.Ve-libTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF4C95261C0F3D11001CD4C9 /* Build configuration list for PBXProject "VélibTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4C953B1C0F3D11001CD4C9 /* Debug */,
+				FF4C953C1C0F3D11001CD4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4C953D1C0F3D11001CD4C9 /* Build configuration list for PBXNativeTarget "VélibTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4C953E1C0F3D11001CD4C9 /* Debug */,
+				FF4C953F1C0F3D11001CD4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF4C95231C0F3D11001CD4C9 /* Project object */;
+}
